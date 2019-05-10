@@ -317,5 +317,19 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Dexter HD',
+        extensionId: 'dexter',
+        collaborator: 'Haddington Dynamics',
+        iconURL: gdxforIconURL,
+        insetIconURL: gdxforInsetIconURL,
+        description: "Automation ex robot arm.",
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false
     }
 ];
