@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import dexterIconURL from './dexter/bg.png';
+import dexterInsetIconURL from './dexter/icon.png';
+
 export default [
     {
         name: (
@@ -322,8 +325,8 @@ export default [
         name: 'Dexter HD',
         extensionId: 'dexter',
         collaborator: 'Haddington Dynamics',
-        iconURL: gdxforIconURL,
-        insetIconURL: gdxforInsetIconURL,
+        iconURL: dexterIconURL,
+        insetIconURL: dexterInsetIconURL,
         description: "Automation ex robot arm.",
         featured: true,
         disabled: false,
